@@ -2,7 +2,7 @@ require 'parslet'
 require "offside_rule/version"
 
 module OffsideRule
-  class OffsideParser < Parslet::Parser
+  class Parser < Parslet::Parser
 
     def initialize(indent_mode: :spaces, indent_width: 2)
       super()
